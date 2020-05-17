@@ -27,8 +27,14 @@ procedure vvod;
 begin
 clrscr;
 for i:=1 to 10 do begin
-a[i].imya:='name';
-writeln('Imya= ',a[i].imya);
+a[i].imya:='name'+'i';
+a[i].familiya:='familiya';
+a[i].adres:='adress';
+a[i].tel:='tel';
+
+writeln('Imya= ',a[i].imya,' Family ',a[i].familiya,' adress', a[i].adres ,' telephone ',a[i].tel);
+
+
 end;
 end;
 procedure poisk;
