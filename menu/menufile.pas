@@ -14,12 +14,13 @@ var f:file of mas;
 procedure see;
 begin
 	clrscr;
-	gotoxy(1,2);
+	
 	for i:=1 to 4 do   begin
 	if i=n then  textbackground(blue) else textbackground(black);
+	gotoxy(i*15, 5);
 	write(menu[i]);
 	textbackground(black);
-	gotoxy(i*15, 2);
+	gotoxy(i*15, 5);
 end;
 
 writeln;

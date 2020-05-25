@@ -5,3 +5,8 @@
 *.swo
 *.swp
 *.txt
+*.cfg
+*.ini
+*.dsk
+*.bak
+*.$$$
