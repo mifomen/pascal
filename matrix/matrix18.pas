@@ -1,6 +1,6 @@
 program matrix17;
 uses crt;
-const n=10; m=10;
+const n=4; m=5;
 type mas=array [1..n,1..m] of integer;
 var a:mas;
     k,sum,i,j:integer;
