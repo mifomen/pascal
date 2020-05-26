@@ -1,7 +1,10 @@
-program integer1;
+program integer123;
+uses crt;
 var l:integer;
 begin
-write('Какого расстояние L в сантиметрах? ');
+clrscr;
+write('Skolko metrov v L santemetrah ');
 readln(l);
-write('Всего метров в L сантиметрах столько  ', l div 100);
+write('Stolko metrov ', l div 100);
+readln;
 end.
